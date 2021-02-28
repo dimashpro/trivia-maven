@@ -1,6 +1,6 @@
-package com.tekwill.java.fundamentals.trivia.repository;
+package com.trivia.game.repository;
 
-import com.tekwill.java.fundamentals.trivia.domain.Question;
+import com.trivia.game.domain.Question;
 
 import java.util.List;
 

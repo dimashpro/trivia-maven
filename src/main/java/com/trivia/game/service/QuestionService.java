@@ -1,7 +1,7 @@
-package com.tekwill.java.fundamentals.trivia.service;
+package com.trivia.game.service;
 
 
-import com.tekwill.java.fundamentals.trivia.domain.Question;
+import com.trivia.game.domain.Question;
 
 import java.util.List;
 

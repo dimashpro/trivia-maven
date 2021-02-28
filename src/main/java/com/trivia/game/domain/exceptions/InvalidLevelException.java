@@ -1,4 +1,4 @@
-package com.tekwill.java.fundamentals.trivia.domain.exceptions;
+package com.trivia.game.domain.exceptions;
 
 public class InvalidLevelException extends RuntimeException {
     public InvalidLevelException(String s) {

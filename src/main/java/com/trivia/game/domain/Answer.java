@@ -1,10 +1,8 @@
-package com.tekwill.java.fundamentals.trivia.domain;
+package com.trivia.game.domain;
 
 
-import com.tekwill.java.fundamentals.trivia.domain.exceptions.EmptyAnswerTextException;
+import com.trivia.game.domain.exceptions.EmptyAnswerTextException;
 import lombok.Data;
-
-import java.util.Objects;
 
 @Data
 public class Answer {

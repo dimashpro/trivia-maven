@@ -1,17 +1,16 @@
-package com.tekwill.java.fundamentals.trivia.domain;
+package com.trivia.game.domain;
 
 
 
 
-import com.tekwill.java.fundamentals.trivia.domain.exceptions.EmptyQuestionTextException;
-import com.tekwill.java.fundamentals.trivia.domain.exceptions.InvalidLevelException;
-import com.tekwill.java.fundamentals.trivia.domain.exceptions.InvalidScoreException;
+import com.trivia.game.domain.exceptions.EmptyQuestionTextException;
+import com.trivia.game.domain.exceptions.InvalidLevelException;
+import com.trivia.game.domain.exceptions.InvalidScoreException;
 import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 @Data
 public class Question {

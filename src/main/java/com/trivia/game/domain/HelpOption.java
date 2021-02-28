@@ -1,4 +1,4 @@
-package com.tekwill.java.fundamentals.trivia.domain;
+package com.trivia.game.domain;
 
 import lombok.Data;
 

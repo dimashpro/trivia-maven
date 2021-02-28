@@ -1,13 +1,13 @@
-package com.tekwill.java.fundamentals.trivia.engine;
+package com.trivia.game.engine;
 
-import com.tekwill.java.fundamentals.trivia.domain.Answer;
-import com.tekwill.java.fundamentals.trivia.domain.AskAudienceHelpOption;
-import com.tekwill.java.fundamentals.trivia.domain.AskFriendHelpOption;
-import com.tekwill.java.fundamentals.trivia.domain.FiftyFiftyHelpOption;
-import com.tekwill.java.fundamentals.trivia.domain.Question;
-import com.tekwill.java.fundamentals.trivia.repository.QuestionRepositoryImpl;
-import com.tekwill.java.fundamentals.trivia.service.QuestionService;
-import com.tekwill.java.fundamentals.trivia.service.QuestionServiceImpl;
+import com.trivia.game.domain.Answer;
+import com.trivia.game.domain.AskAudienceHelpOption;
+import com.trivia.game.domain.AskFriendHelpOption;
+import com.trivia.game.domain.FiftyFiftyHelpOption;
+import com.trivia.game.domain.Question;
+import com.trivia.game.repository.QuestionRepositoryImpl;
+import com.trivia.game.service.QuestionService;
+import com.trivia.game.service.QuestionServiceImpl;
 
 import java.util.List;
 import java.util.Random;

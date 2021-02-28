@@ -1,8 +1,8 @@
-package com.tekwill.java.fundamentals.trivia.demo;
+package com.trivia.game.demo;
 
 
-import com.tekwill.java.fundamentals.trivia.engine.TriviaAdmin;
-import com.tekwill.java.fundamentals.trivia.engine.TriviaGame;
+import com.trivia.game.engine.TriviaAdmin;
+import com.trivia.game.engine.TriviaGame;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Scanner;

@@ -1,8 +1,8 @@
-package com.tekwill.java.fundamentals.trivia.repository;
+package com.trivia.game.repository;
 
 
-import com.tekwill.java.fundamentals.trivia.domain.Answer;
-import com.tekwill.java.fundamentals.trivia.domain.Question;
+import com.trivia.game.domain.Answer;
+import com.trivia.game.domain.Question;
 import lombok.extern.slf4j.Slf4j;
 
 import java.sql.Connection;
@@ -17,7 +17,7 @@ import java.util.List;
 @Slf4j
 public class QuestionRepositoryImpl implements QuestionRepository {
     private final String url = "jdbc:postgresql://localhost:5432/";
-    private final String database = "trivia";
+    private final String database = "trivia-db";
     private final String userName = "postgres";
     private final String password = "123456";
 
